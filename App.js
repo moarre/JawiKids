@@ -1,23 +1,20 @@
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
+// SideBar
+import React from 'react'
+import { View, Image, Text, StyleSheet } from "react-native"
+import { NavigationContainer } from '@react-navigation/native';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 import Home from './pages/Home';
 import HurufMain from './sections/HurufMain';
 import HurufChoice from './sections/HurufChoice';
-import RateUs from './pages/RateUs'
-import FollowUs from './pages/FollowUs';
 
-export default function App() {
+const Drawer = createDrawerNavigator();
+
+function App() {
   return (
     <ScrollView>
       <HurufChoice />
     </ScrollView>
-  );
+  )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
