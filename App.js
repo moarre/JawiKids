@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import Home from './pages/Home';
+import HurufMain from './sections/HurufMain';
 
 export default function App() {
   return (
