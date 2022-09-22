@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import Home from './pages/Home';
 import HurufMain from './sections/HurufMain';
+import HurufChoice from './sections/HurufChoice';
+import RateUs from './pages/RateUs'
+import FollowUs from './pages/FollowUs';
 
 export default function App() {
   return (
     <ScrollView>
-      <Home />
+      <HurufChoice />
     </ScrollView>
   );
 }
