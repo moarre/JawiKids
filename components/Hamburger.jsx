@@ -1,4 +1,9 @@
 import React from 'react'
+//import { NavigationContainer } from '@react-navigation/native';
+//import { createDrawerNavigator } from '@react-navigation/drawer';
+
+// need some installation first (qihaa in charge)
+//const Drawer = createDrawerNavigator();
 
 function Hamburger() {
     return (
